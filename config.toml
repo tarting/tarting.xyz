@@ -1,3 +1,58 @@
-baseURL = "http://example.org/"
+baseURL = "http://tarting.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Trygvi Bech Árting"
+theme = "researcher"
+enableEmoji = true
+math = true
+
+[params]
+    author = "Trygvi Bech Árting"
+    description = "Geologist.Researcher.Developer"
+    favicon = "favicon.ico"  # path to a .ico to use as favicon
+    logo = ""  # url or path to a logo to put in the header
+    [params.footer]
+        text = "Trygvi Bech Árting"
+        url = "https://tarting.xyz"
+    [params.style]  # appearance options (can be omitted)
+        fontFamily = "Inconsolata"
+        pageWidth = "750px"
+        avatarSize = "200px"
+        colorBlack = "#222222"
+        colorRed = "#b23b2d"
+        colorBlue = "#134267"
+    [[params.socialIcons]]
+        icon = "fab fa-researchgate"
+        title = "Research Gate"
+        url = "https://www.researchgate.net/profile/Trygvi-Arting"
+    [[params.socialIcons]]
+        icon = "fab fa-github"
+        title = "GitHub"
+        url = "https://github.com/tarting"
+    [[params.socialIcons]]
+        icon = "fab fa-facebook"
+        title = "Facebook"
+        url = "https://facebook.com/trygvi"
+    [[params.socialIcons]]
+        icon = "fas fa-envelope"
+        title = "E-mail"
+        url = "mailto:trygvi@gmail.com"
+
+[permalinks]
+    "/" = "/:filename"
+
+[menu]
+    [[menu.main]]
+        name = "Resume"
+        url = "/Resume"
+        weight = 1
+    [[menu.main]]
+        name = "Research"
+        url = "/Research"
+        weight = 2
+    [[menu.main]]
+        name = "Reach me"
+        url = "/ReachMe"
+        weight = 3
+
+[markup.goldmark.renderer]
+        unsafe = true  # allow raw HTML in markdown files
