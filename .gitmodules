@@ -1,3 +1,6 @@
 [submodule "public"]
 	path = public
 	url = git@github.com:tarting/tarting.github.io.git
+[submodule "themes/researcher"]
+	path = themes/researcher
+	url = https://github.com/ojroques/hugo-researcher.git
