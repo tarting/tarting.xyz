@@ -24,7 +24,7 @@
     {{ $caption = (path.Split $image.Name).File }}
 {{ end }}
 
-{{ $nanogallery2_settings := getJSON "/static/ng2_lightbox.json" | jsonify}}
+{{ $nanogallery2_settings := getJSON "/static/ng2grid.json" | jsonify}}
 
 <figure class="{{ $class }}">
 <img src="{{ ($.Scratch.Get "thumbnail").RelPermalink }}" data-ngsrc="{{$image.RelPermalink}}"
