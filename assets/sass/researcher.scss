@@ -5,6 +5,13 @@ $avatar-size: {{ .Param "style.avatarSize" | default "90px;" }};
 // Colors
 $black: {{ .Param "style.colorBlack" | default "#222222" }};
 $red: {{ .Param "style.colorRed" | default "#dc3545" }};
+$illuminating: {{ .Param "style.colorY" | default "#f5df4d" }};
+$peacockblue: {{ .Param "style.colorC" | default "#00a0b0" }};
+$fruitdove: {{ .Param "style.colorP" | default "#cf5c78" }};
+$skydiver: {{ .Param "style.colorB" | default "#00589b" }};
+$clouddancer: {{ .Param "style.colorL" | default "#f0eee9" }};
+$ultimategray: {{ .Param "style.colorG" | default "#939597" }};
+
 
 // Font
 $font-family: {{ .Param "style.fontFamily" | default "Inconsolata" }};
@@ -21,8 +28,7 @@ $y-medium: 1.0rem;
         color: $red;
     }
     &:hover {
-        color: $red;
-        text-decoration: underline;
+        color: $black;
     }
 }
 %link-dark {
@@ -32,8 +38,17 @@ $y-medium: 1.0rem;
         color: $black;
     }
     &:hover {
+        color: $red;
+    }
+}
+%link-display {
+    color: $black;
+    text-decoration: none;
+    & * {
         color: $black;
-        text-decoration: underline;
+    }
+    &:hover {
+        color: $red;
     }
 }
 %table-cell {
@@ -52,8 +67,8 @@ $y-medium: 1.0rem;
     max-width: $max-width;
 }
 .navbar-brand {
-    @extend %link-dark;
-    font-size: 2rem;
+    @extend %link-display;
+        font-size: 2.5rem;
 }
 .nav-link {
     @extend %link-default;
@@ -67,7 +82,7 @@ $y-medium: 1.0rem;
     }
     h1, h2, h3, h4, h5, h6 {
         font-size: medium;
-        font-weight: bold;
+            font-weight: bold;
         margin: $y-medium 0 $y-small 0;
     }
     @for $i from 1 through 4 {
@@ -131,7 +146,7 @@ $y-medium: 1.0rem;
         }
     }
     blockquote {
-        border-left: 4px solid;
+        border-left: 2px solid;
         font-style: italic;
         margin: $y-medium 0;
         padding: 8px 8px;
