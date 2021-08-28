@@ -1,0 +1,9 @@
+{{ $nanogallery2_settings := getJSON "/static/ng2_gallery_compact.json" | jsonify}}
+
+<div data-nanogallery2="{{$nanogallery2_settings}}">
+    {{ range $index, $image := sort (resources.Match (.Get "directory")) }}
+    {{ $.Scratch.Set "thumbnail" ($image.Resize "x300 q90") }}
+    <a href="{{ $image.RelPermalink }}" data-ngthumb="{{ ($.Scratch.Get "thumbnail").RelPermalink }}">{{$image.Name}}</a>
+    [{{ end }}]
+</div>
+

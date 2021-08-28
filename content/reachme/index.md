@@ -1,11 +1,11 @@
 +++
-title = "Reach Me"
+title = "T. B. Árting: Reach Me"
 +++
 
 
 # Reach me at
 
-{{< figure class="avatar" src="/avatar.jpg" alt="avatar">}}
+{{< deffig class="avatar" src="/avatar.jpg" alt="avatar">}}
 
 e-mail: [trygvi@gmail.com](mailto:trygvi@gmail.com)
 
