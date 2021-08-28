@@ -1,7 +1,6 @@
 baseURL = "http://tarting.github.io/"
 languageCode = "en-us"
 title = "Trygvi Bech Árting"
-theme = "researcher"
 enableEmoji = true
 math = true
 
