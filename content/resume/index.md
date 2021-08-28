@@ -43,7 +43,7 @@ writing reports.
 _Jul - Aug: 2011, 2012, 2013, 2015_
 
 ###### __Scouting consultant__
-_The Faroese YMCA Scout Association (KFUM Skótarnir í Føroyumnir í Føroyum)_
+_The Faroese YMCA Scout Association (KFUM Skótarnir í Føroyum)_
 
 Secretary of the board, common office duties: Answering and forwarding mail, phone, paying bills, maintaining membership database etc. Developing materials for youth and childrens scouting programme. Planning and organising camps and courses on a regional level. _Aug 2008 - Sep 2008, full time_
 
