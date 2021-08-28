@@ -2,7 +2,9 @@
 title = "Research"
 +++
 
-## Research Interest
+# Research Interest
+
+{{< figure class="avatar" src="/avatar.jpg" alt="avatar">}}
 
 My current research interests derive from my desire to apply novel analytical approaches to understanding ancient Earth processes. Including development of the hydrosphere and atmosphere, as well as understanding orogenic igneous processes. I am currently working on tracing atmospheric oxygen in the Late Neoproterozoic in banded iron formations and carbonates in Brazil and Canada, on the petrology of the noritic Tasiilaq Intrusion, South-East Greenland, and the behaviour of Cr isotopes in the Paleoproterozoic Quadrilátero Ferífero banded iron formation.
 
