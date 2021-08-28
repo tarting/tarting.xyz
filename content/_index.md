@@ -1,1 +1,1 @@
-resume/resume.md
+resume/index.md

@@ -12,7 +12,7 @@ math = true
     [params.footer]
         text = "Trygvi Bech Árting"
         url = "https://tarting.xyz"
-    [params.style]  # appearance options (can be omitted)
+    [params.style]
         fontFamily = "Inconsolata"
         pageWidth = "750px"
         avatarSize = "200px"
@@ -42,15 +42,15 @@ math = true
 [menu]
     [[menu.main]]
         name = "Resume"
-        url = "/Resume"
+        url = "/resume"
         weight = 1
     [[menu.main]]
         name = "Research"
-        url = "/Research"
+        url = "/research"
         weight = 2
     [[menu.main]]
         name = "Reach me"
-        url = "/ReachMe"
+        url = "/reachme"
         weight = 3
 
 [markup.goldmark.renderer]
