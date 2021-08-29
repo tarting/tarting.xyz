@@ -6,7 +6,7 @@ title = "T. B. Árting: Resume"
 
 {{< deffig class="avatar" src="/avatar.jpg" alt="avatar">}}
 
-Halló, I am a geologist from the Faroe Islands, currently based in Copenhagen Denmark. Until recently I've been emplyoed as a PhD-student at the University of Copenhagen. During my stay I implemented new data reduction schemes for the mass spectrometry lab (TIMS), and established methods for trace metal analysis in geological samples using inductively coupled plasma mass spectrometry (ICP-MS, Bruker Aurora Elite), and was involved in method development for laser ablation ICP-MS in a newly established laboratory (Teledyne CETAC Analyte Excite coupled with Agilent 7900 ICP-MS). Seeking to use my curiosity and scientific background to optimise workflows.
+Halló, I am a geologist from the Faroe Islands, currently based in Copenhagen Denmark. Until recently I've been employed as a PhD-student at the University of Copenhagen. During my stay I implemented new data reduction schemes for the mass spectrometry lab (TIMS), and established methods for trace metal analysis in geological samples using inductively coupled plasma mass spectrometry (ICP-MS, Bruker Aurora Elite), and was involved in method development for laser ablation ICP-MS in a newly established laboratory (Teledyne CETAC Analyte Excite coupled with Agilent 7900 ICP-MS). Seeking to use my curiosity and scientific background to optimise work-flows.
 
 
 ## Employment

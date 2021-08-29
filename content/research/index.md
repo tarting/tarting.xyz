@@ -43,7 +43,7 @@ __[L]__ Kokfelt, T. F., Weatherley, S. M., Keiding, J. K. & Árting, T. B. __(20
 
 __[T]__ Árting, T. B. __(2015)__ Drilling tunnels in the Faroes, _Drilling Volcanics Conference_, Faroe Islands. 
 
-__[P]__ Árting, T. B. __(2015)__ Geology of the Tasiilaq Intrusive Center, _Dansk Geologisk Forening Årsmøde_.
+__[P]__ Árting, T. B. __(2015)__ Geology of the Tasiilaq Intrusive Centre, _Dansk Geologisk Forening Årsmøde_.
 
 __[P]__ Árting, T. B. __(2013)__ A detailed study of a Mn-crust, Faroe Bank, Faroe Islands, _Dansk Geologisk Forening Årsmøde_.
 
