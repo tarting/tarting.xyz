@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32"
+   height="32"
+   viewBox="0 0 8.4666667 8.4666667"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="favicon.svg"
+   inkscape:export-filename="/home/tba/Projects/tarting.xyz/static/favicon.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#808080"
+     bordercolor="#231e57"
+     borderopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="mm"
+     showgrid="false"
+     borderlayer="true"
+     inkscape:showpageshadow="false"
+     showborder="true"
+     units="px"
+     inkscape:snap-page="true"
+     inkscape:zoom="16"
+     inkscape:cx="11.53125"
+     inkscape:cy="8.125"
+     inkscape:window-width="960"
+     inkscape:window-height="1011"
+     inkscape:window-x="960"
+     inkscape:window-y="32"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <color-profile
+       name="sRGB"
+       xlink:href="file:///usr/share/color/icc/colord/sRGB.icc"
+       id="color-profile1064" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath84845">
+      <ellipse
+         style="fill:#00a0b0;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264589"
+         id="ellipse84847"
+         cx="4.2335"
+         cy="4.2333331"
+         rx="4.2335"
+         ry="4.2333331" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:#00a0b0;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264588"
+       id="ellipse1043"
+       cx="4.2335"
+       cy="4.2333331"
+       rx="4.2335"
+       ry="4.2333331" />
+    <ellipse
+       style="fill:#dc3545;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264588"
+       id="path33"
+       cx="4.2335"
+       cy="4.2333331"
+       rx="4.2335"
+       ry="4.2333331" />
+    <g
+       id="g84769"
+       clip-path="url(#clipPath84845)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;fill:#f0eee9;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="0.77094859"
+         y="7.2788773"
+         id="text3326"><tspan
+           sodipodi:role="line"
+           id="tspan3324"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'Oswald Regular';-inkscape-font-specification:'Oswald Regular, ';fill:#f0eee9;stroke-width:0.264583"
+           x="0.77094859"
+           y="7.2788773">T</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:8.46667px;line-height:1.25;font-family:sans-serif;fill:#f0eee9;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="3.8007519"
+         y="8.2708912"
+         id="text58791"><tspan
+           sodipodi:role="line"
+           id="tspan58789"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'Oswald Regular';-inkscape-font-specification:'Oswald Regular, ';fill:#f0eee9;stroke-width:0.264583"
+           x="3.8007519"
+           y="8.2708912">Á</tspan></text>
+    </g>
+  </g>
+</svg>
