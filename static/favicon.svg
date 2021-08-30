@@ -32,21 +32,22 @@
      showborder="true"
      units="px"
      inkscape:snap-page="true"
-     inkscape:zoom="16"
-     inkscape:cx="11.53125"
-     inkscape:cy="8.125"
-     inkscape:window-width="960"
+     inkscape:zoom="22.627417"
+     inkscape:cx="20.970135"
+     inkscape:cy="14.495689"
+     inkscape:window-width="1920"
      inkscape:window-height="1011"
-     inkscape:window-x="960"
+     inkscape:window-x="0"
      inkscape:window-y="32"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" />
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2"
+     inkscape:snap-object-midpoints="true" />
   <defs
      id="defs2">
     <color-profile
        name="sRGB"
        xlink:href="file:///usr/share/color/icc/colord/sRGB.icc"
-       id="color-profile1064" />
+       id="color-profile1178" />
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath84845">
@@ -58,11 +59,22 @@
          rx="4.2335"
          ry="4.2333331" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1173">
+      <path
+         id="path1175"
+         style="fill:#f0eee9;stroke-width:0.19302"
+         d="M 7.4412356,6.0854167 4.2333333,7.9375 1.0254308,6.0854167 1.025431,-2.682e-8 h 6.4158049 z"
+         sodipodi:nodetypes="cccccc" />
+    </clipPath>
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     sodipodi:insensitive="true"
+     style="display:none">
     <ellipse
        style="fill:#00a0b0;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264588"
        id="ellipse1043"
@@ -103,5 +115,55 @@
            x="3.8007519"
            y="8.2708912">Á</tspan></text>
     </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <path
+       sodipodi:type="star"
+       style="fill:#dc3545;fill-opacity:1"
+       id="path859"
+       inkscape:flatsided="true"
+       sodipodi:sides="6"
+       sodipodi:cx="0"
+       sodipodi:cy="0"
+       sodipodi:r1="19.190535"
+       sodipodi:r2="16.61949"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.0471976"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 16.61949,9.5952674 -8.4470998e-8,19.190535 -16.619491,9.5952672 -16.61949,-9.5952674 8.4470996e-8,-19.190535 16.619491,-9.5952672 Z"
+       transform="matrix(0.22059486,0,0,0.22059486,4.2333333,4.2333334)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#f0eee9;fill-opacity:1"
+       id="path6877"
+       inkscape:flatsided="true"
+       sodipodi:sides="6"
+       sodipodi:cx="0"
+       sodipodi:cy="0"
+       sodipodi:r1="19.190535"
+       sodipodi:r2="16.61949"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.0471976"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 16.61949,9.5952674 -8.4470998e-8,19.190535 -16.619491,9.5952672 -16.61949,-9.5952674 8.4470996e-8,-19.190535 16.619491,-9.5952672 Z"
+       transform="matrix(0.1930205,0,0,0.1930205,4.2333333,4.2333333)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:9.525px;line-height:1.25;font-family:sans-serif;fill:#00a0b0;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="1.3758334"
+       y="7.9856815"
+       id="text9039"
+       mask="none"
+       clip-path="url(#clipPath1173)"><tspan
+         sodipodi:role="line"
+         id="tspan9037"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.525px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro';fill:#00a0b0;fill-opacity:1;stroke-width:0.264583"
+         x="1.3758334"
+         y="7.9856815">Á</tspan></text>
   </g>
 </svg>
