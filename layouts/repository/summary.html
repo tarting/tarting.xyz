@@ -1,0 +1,7 @@
+    <div>
+        <hr>
+        <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+        <p>
+        {{ if isset .Params "summary" }}{{ .Params.Summary | markdownify }}{{ else }}{{ .Summary }}{{ end }}
+        </p>
+    </div>

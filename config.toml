@@ -49,9 +49,13 @@ math = true
         url = "/research"
         weight = 2
     [[menu.main]]
+        name = "Repository"
+        url = "/repository"
+        weight = 3
+    [[menu.main]]
         name = "Reach me"
         url = "/reachme"
-        weight = 3
+        weight = 4
 
 [markup.goldmark.renderer]
         unsafe = true  # allow raw HTML in markdown files
