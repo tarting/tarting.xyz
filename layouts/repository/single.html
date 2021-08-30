@@ -1,5 +1,10 @@
 {{ define "main" }}
 <div class="container">
+    {{ with .Resources.GetMatch "img.jpg" }}
+        <figure class="avatar">
+            <img src="img.jpg"/>
+        </figure>
+    {{ end }}
     <H1> {{ .Title }} </H1>
     {{ .Content }}
 </div>
