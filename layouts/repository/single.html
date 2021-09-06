@@ -1,11 +1,11 @@
 {{ define "main" }}
 <div class="container">
+    <H1> {{ .Title }} </H1>
     {{ with .Resources.GetMatch "img.jpg" }}
         <figure class="avatar">
             <img src="img.jpg"/>
         </figure>
     {{ end }}
-    <H1> {{ .Title }} </H1>
     {{ .Content }}
 </div>
 {{ end }}
