@@ -73,12 +73,17 @@ $y-medium: 1.0rem;
 .nav-link {
     @extend %link-default;
 }
+
+
 #content {
     div.repolist {
         min-height: 270px;
     }
     a {
         @extend %link-default;
+    }
+    .darklink {
+        @extend %link-dark;   
     }
     p {
         margin-bottom: $y-small;
