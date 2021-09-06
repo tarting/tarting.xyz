@@ -1,6 +1,13 @@
-    <div>
+    
+    <div class="repolist">
         <hr>
         <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+        {{ $img := .Page.Resources.GetMatch "img.jpg" }}
+        {{ with .Resources.GetMatch "img.jpg" }}
+            <figure class="avatar">
+                <img src={{ $img.RelPermalink }}/>
+            </figure>
+        {{ end }}
         <p>
         {{ if isset .Params "summary" }}{{ .Params.Summary | markdownify }}{{ else }}{{ .Summary }}{{ end }}
         </p>

@@ -74,6 +74,9 @@ $y-medium: 1.0rem;
     @extend %link-default;
 }
 #content {
+    div.repolist {
+        min-height: 270px;
+    }
     a {
         @extend %link-default;
     }
