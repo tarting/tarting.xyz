@@ -17,19 +17,19 @@ My current research interests derive from my desire to apply novel analytical ap
 > [P]osters, [T]alks, Peer reviewed journal [A]articles, scientific [R]eports and [L]etters.
 > 
 
-__[T]__ Árting T. B. & Frei R __(2019)__ Oxidative weathering in the Late Neoproterozoic: Cr-isotopesin the Banda Alta Fm. iron deposit, Brazil. _Goldschmidt Abstracts_, 2019 132.
+[__[T]__ Árting T. B. & Frei R __(2019)__ Oxidative weathering in the Late Neoproterozoic: Cr-isotopesin the Banda Alta Fm. iron deposit, Brazil. _Goldschmidt Abstracts_, 2019 132.](https://goldschmidtabstracts.info/2019/132.pdf)
 
 __[T]__ Árting, T. B. __(2019)__ New laser ablation and solution ICP-MS laboratories in the GMP group, _Magma Chamber Meeting_, Copenhagen Denmark. 
 
-__[A]__ Caxito, F. A., Frei, R., Uhlein, G. J., Dias, T. G., Árting, T. B., & Uhlein, A. __(2018)__. Multiproxy geochemical and isotope stratigraphy records of a Neoproterozoic Oxygenation Event in the Ediacaran Sete Lagoas cap carbonate, Bambuí Group, Brazil. _Chemical Geology_, 481, 119-132.
+[__[A]__ Caxito, F. A., Frei, R., Uhlein, G. J., Dias, T. G., Árting, T. B., & Uhlein, A. __(2018)__. Multiproxy geochemical and isotope stratigraphy records of a Neoproterozoic Oxygenation Event in the Ediacaran Sete Lagoas cap carbonate, Bambuí Group, Brazil. _Chemical Geology_, 481, 119-132.](https://doi.org/10.1016/j.chemgeo.2018.02.007)
 
-__[A]__ Lebrun, E., Árting, T. B., Kolb, J., Fiorentini, M., Kokfelt, T., Johannesen, A. B., ... & Murphy, R. C. __(2018)__. Genesis of the Paleoproterozoic Ammassalik Intrusive Complex, south-east Greenland. _Precambrian Research_, 315, 19-44.
+[__[A]__ Lebrun, E., Árting, T. B., Kolb, J., Fiorentini, M., Kokfelt, T., Johannesen, A. B., ... & Murphy, R. C. __(2018)__. Genesis of the Paleoproterozoic Ammassalik Intrusive Complex, south-east Greenland. _Precambrian Research_, 315, 19-44.](https://doi.org/10.1016/j.precamres.2018.06.016)
 
-__[P]__ Árting T. B. & Frei R. __(2018)__ Oxidative weathering in the Late Neoproterozoic: Preliminary Cr Isotope results from the Urucum District, _Brazil. Nordic Geological Winter Meeting Abstracts_, 2018, 78.
+[__[P]__ Árting T. B. & Frei R. __(2018)__ Oxidative weathering in the Late Neoproterozoic: Preliminary Cr Isotope results from the Urucum District, _Brazil. Nordic Geological Winter Meeting Abstracts_, 2018, 78.](https://2dgf.dk/xpdf/NGWM2018-Abstract_Volume_20180103.pdf#page=78)
 
 __[T]__ Árting, T. B. __(2018)__ Geology of the Tasiilaq Intrusive Comples, South-East Greenland, _talk at Federal University of Minas Gerais_.
 
-__[A]__ Frei, R., Døssing, L. N., Gaucher, C., Boggiani, P. C., Frei, K. M., Árting, T. B., S. A. Crowe & Freitas, B. T. __(2017)__. Extensive oxidative weathering in the aftermath of a late Neoproterozoic glaciation–Evidence from trace element and chromium isotope records in the Urucum district (Jacadigo Group) and Puga iron formations (Mato Grosso do Sul, Brazil). _Gondwana Research_, 49, 1-20.
+[__[A]__ Frei, R., Døssing, L. N., Gaucher, C., Boggiani, P. C., Frei, K. M., Árting, T. B., S. A. Crowe & Freitas, B. T. __(2017)__. Extensive oxidative weathering in the aftermath of a late Neoproterozoic glaciation–Evidence from trace element and chromium isotope records in the Urucum district (Jacadigo Group) and Puga iron formations (Mato Grosso do Sul, Brazil). _Gondwana Research_, 49, 1-20.](https://doi.org/10.1016/j.gr.2017.05.003)
 
 __[T]__ Árting, T. B. __(2017)__ Cr isotopes in the Neoproterozoic, Morro do Urucum Iron Formation, SW Brazil, _Petrologisk Klub_.
 
@@ -37,11 +37,11 @@ __[T]__ Árting, T. B. __(2016)__ Visualizing normalized rare earth element patt
 
 __[P]__ Árting, T. B., Kokfelt, T. F., Holm, P. M., Fiorentini, M. __(2015)__ The Tasiilaq Intrusive Centre of the Ammassalik Intrusive Complex, South-East Greenland. Scientific poster, _Greenland Day 2015, Perth, Australia_.
 
-__[R]__ Kokfelt, T. F., Weatherley, S. M., Keiding, J. K., Árting, T. B. __(2015)__ Field report for the 2014 field season, South East Greenland – intrusions in the larger Tasiilaq region, _Geological Survey of Denmark and Greenland Report_, 2015/84, 66 pages.
+[__[R]__ Kokfelt, T. F., Weatherley, S. M., Keiding, J. K., Árting, T. B. __(2015)__ Field report for the 2014 field season, South East Greenland – intrusions in the larger Tasiilaq region, _Geological Survey of Denmark and Greenland Report_, 2015/84, 66 pages.](https://data.geus.dk/g500segment/32459_GEUS-R_2016_38.pdf)
 
-__[L]__ Kokfelt, T. F., Weatherley, S. M., Keiding, J. K. & Árting, T. B. __(2015)__ Magma mixing, mingling and hybridisation at different crustal levels: Snapshots from 1.9 billion years of magmatism in south-eastern Greenland. _Geological Survey of Denmark and Greenland Bulletin_, 33, 45-48.
+[__[L]__ Kokfelt, T. F., Weatherley, S. M., Keiding, J. K. & Árting, T. B. __(2015)__ Magma mixing, mingling and hybridisation at different crustal levels: Snapshots from 1.9 billion years of magmatism in south-eastern Greenland. _Geological Survey of Denmark and Greenland Bulletin_, 33, 45-48.](https://doi.org/10.34194/geusb.v33.4486)
 
-__[T]__ Árting, T. B. __(2015)__ Drilling tunnels in the Faroes, _Drilling Volcanics Conference_, Faroe Islands. 
+[__[T]__ Árting, T. B. __(2015)__ Drilling tunnels in the Faroes, _Drilling Volcanics Conference_, Faroe Islands.](http://jrasmussen.jf.fo/programme.html)
 
 __[P]__ Árting, T. B. __(2015)__ Geology of the Tasiilaq Intrusive Centre, _Dansk Geologisk Forening Årsmøde_.
 
