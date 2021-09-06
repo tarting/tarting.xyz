@@ -7,7 +7,7 @@ measurements acquired on the IsoprobeT and Phoenix instruments at the
 Geology Section at the University of Copenhagen. This piece of software was developed in particular for doing data reduction on chromium isotope measurements. 
 New isotope systems are easily implemented using json configuration files, and new spikes can also be calibrated automatically on the basis of measured spike-standard mixtures.
 
-[tarting/pysotope](https://github.com/tarting/pysotope)
+[github.com/tarting/pysotope](https://github.com/tarting/pysotope)
 
 Pysotope uses a hillclimbing algorithm to unmix spike and sample isotope composition, by calculating mass dependent instrument and natural isotope fractionation from a known standard. This yields sample isotope composition and concentration for the element of interest.
 

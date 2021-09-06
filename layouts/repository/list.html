@@ -1,6 +1,9 @@
 {{ define "main" }}
 <div class="container">
     <h1>Project repository</h1>
+    <p>
+    This repository contains information on selected software projects of mine. Some are modules presented as readme files with links to the git repository, others are smaller and presented as output from Jupyter notebooks. 
+    </p>
     <ul>
         {{ range .Pages }}
         <p> {{ .Render "summary" }} </p>
