@@ -76,9 +76,9 @@ Experience using SEM secondary electron images for analysis planning (Electron m
 
 ---
 
-__Brazil__ States of Mato Grosso do Sul, Minas Gerais.
+__Brazil__ 3 weeks in the states of Mato Grosso do Sul, Minas Gerais. Field work in the São Fransico Basin: Neoproterozoic-Cambrian limestone near Belo Horizonte and Januaría. The iron mines near Corumbá, Neoproterozoic BIF and Neoproterozoic-Cambrian Carbonates. Core sampling in the Paleoproterozoic Quadrilátero Ferrífero BIF. 
 
-__China__ Guizhou, Hunan and Hubei provinces.
+__China__ 2 weeks in Guizhou, Hunan and Hubei provinces. Sampling Neoproterozoic-Cambrian carbonates in the Yangtze basin.
 
 __Svalbard__ 1 week, Spitsbergen Island, field assistant, polar-bear watch.
 
