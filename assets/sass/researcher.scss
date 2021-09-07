@@ -1,6 +1,7 @@
 // Sizes
 $max-width: {{ .Param "style.pageWidth" | default "750px;" }};
 $avatar-size: {{ .Param "style.avatarSize" | default "90px;" }};
+$listimg-size: {{ .Param "style.listimgSize" | default "50px;" }};
 
 // Colors
 $black: {{ .Param "style.colorBlack" | default "#222222" }};
@@ -109,6 +110,13 @@ $y-medium: 1.0rem;
         margin: -8px 0 0 16px;
         height: $avatar-size;
         width: $avatar-size;
+    }
+    .listimg > img {
+        border-radius: 50%;
+        float: right;
+        margin: -8px 0 0 16px;
+        height: $listimg-size;
+        width: $listimg-size;
     }
     ol {
         counter-reset: list;

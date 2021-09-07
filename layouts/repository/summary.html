@@ -7,7 +7,7 @@
 
     <a href="{{ .Permalink }}">
     {{ with .Resources.GetMatch "img.jpg" }}
-        <figure class="avatar">
+        <figure class="listimg">
             <img src={{ $img.RelPermalink }}/>
         </figure>
     {{ end }}
