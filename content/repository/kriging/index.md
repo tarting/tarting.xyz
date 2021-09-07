@@ -16,7 +16,6 @@ An example of kriging and map projection in Python 3. Geopandas is used for read
 Define projections: EPSG:4326 is the geographical reference (WGS-84), and the map is plotted in UTM zone 32N (EPSG:32632). 
 
 ```python
-dpi=175
 epsg_geog = 'EPSG:4326'
 epsg_plot = 'EPSG:32632'
 ```
