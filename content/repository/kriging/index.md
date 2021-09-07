@@ -329,6 +329,8 @@ for i in range(4):
 Imports
 </h3>
 
+[Top]({{< relref "/repository/kriging/index.md" >}})
+
 ```python
 %matplotlib inline
 
@@ -346,4 +348,3 @@ import shapely.vectorized as shpvec
 from matplotlib.colors import Normalize
 ```
 
-[Top]({{< relref "/repository/kriging/index.md" >}})
