@@ -50,7 +50,7 @@ math = true
         url = "/research"
         weight = 2
     [[menu.main]]
-        name = "Repository"
+        name = "Repo"
         url = "/repository"
         weight = 3
     [[menu.main]]
