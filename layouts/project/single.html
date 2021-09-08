@@ -1,5 +1,6 @@
 {{ define "main" }}
 <div class="container">
+    {{- partial "nextprevnav.html" . -}}
     <H1> {{ .Title }} </H1>
     {{ with .Resources.GetMatch "img.jpg" }}
         <figure class="avatar">
@@ -8,5 +9,6 @@
     {{ end }}
     {{ .Content }}
     <hr>
+    {{- partial "nextprevnav.html" . -}}
 </div>
 {{ end }}
