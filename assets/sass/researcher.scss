@@ -78,7 +78,10 @@ $y-medium: 1.0rem;
 
 #content {
     div.repolist {
-        min-height: 270px;
+        min-height: $listimg-size*1.4;
+    }
+    div.projectheader {
+        min-height: $avatar-size*1.25;
     }
     a {
         @extend %link-default;

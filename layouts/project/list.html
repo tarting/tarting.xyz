@@ -1,18 +1,19 @@
 {{ define "main" }}
 <div class="container">
     <div class="projectheader">
-    <h1>Project repository</h1>
+    <h1>{{ .LinkTitle }}</h1>
     {{ with .Resources.GetMatch "img.jpg" }}
         <figure class="avatar">
             <img src="img.jpg"/>
         </figure>
     {{ end }}
-    {{ .Content }}
+    <p> {{ .Content }} </p>
     </div>
     <ul>
-        {{ range .Pages }}
+        {{ range (.Pages.ByParam "order") }}
         <p> {{ .Render "summary" }} </p>
         {{ end }}
     </ul>
+    <hr>
 </div>
 {{ end }}
