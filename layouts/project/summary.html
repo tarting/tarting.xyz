@@ -4,11 +4,10 @@
     {{ .Title }}
     </a></h2>
     <hr>
-
     <a href="{{ .Permalink }}">
     {{ with .Resources.GetMatch "img.jpg" }}
         <figure class="listimg">
-            <img src={{ $img.Permalink }} />
+            <img src={{ $img.RelPermalink }}/>
         </figure>
     {{ end }}
     </a>
