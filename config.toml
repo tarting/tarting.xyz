@@ -16,6 +16,7 @@ math = true
         fontFamily = "Inconsolata"
         pageWidth = "750px"
         avatarSize = "200px"
+        listimgSize = "150px"
         colorBlack = "#222222"
         colorRed = "#b23b2d"
         colorBlue = "#134267"
@@ -49,9 +50,13 @@ math = true
         url = "/research"
         weight = 2
     [[menu.main]]
+        name = "Repository"
+        url = "/repository"
+        weight = 3
+    [[menu.main]]
         name = "Reach me"
         url = "/reachme"
-        weight = 3
+        weight = 4
 
 [markup.goldmark.renderer]
         unsafe = true  # allow raw HTML in markdown files

@@ -1,0 +1,19 @@
+{{ $img := .Page.Resources.GetMatch "img.jpg" }}
+<div class="repolist">
+    <hr>
+    <h4><a href="{{ .Permalink }}">
+    {{ .Title }}
+    </a></h4>
+
+    <a href="{{ .Permalink }}">
+    {{ with .Resources.GetMatch "img.jpg" }}
+        <figure class="listimg">
+            <img src={{ $img.RelPermalink }}/>
+        </figure>
+    {{ end }}
+    </a>
+
+    <p><a href="{{ .Permalink }}" class="darklink">
+    {{ if isset .Params "summary" }}{{ .Params.Summary | markdownify }}{{ else }}{{ .Summary }}{{ end }}
+    </a></p>
+</div>
