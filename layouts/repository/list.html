@@ -1,6 +1,9 @@
 {{ define "main" }}
 <div class="container">
     <div class="projectheader">
+    {{ with .Page.Param "header" }}
+        <h1>{{ . }}</h1>
+    {{ end }}
     {{ with .Resources.GetMatch "img.jpg" }}
         <figure class="avatar">
             <img src="img.jpg"/>
