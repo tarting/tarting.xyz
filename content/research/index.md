@@ -1,5 +1,5 @@
 +++
-title = "T. B. Árting: Research"
+title = "Research"
 +++
 
 # Research Interest

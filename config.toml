@@ -43,18 +43,22 @@ math = true
 [menu]
     [[menu.main]]
         name = "Resume"
+        identifier = "resume"
         url = "/resume"
         weight = 1
     [[menu.main]]
         name = "Research"
+        identifier = "research"
         url = "/research"
         weight = 2
     [[menu.main]]
         name = "Repo"
+        identifier = "repository"
         url = "/repository"
         weight = 3
     [[menu.main]]
         name = "Reach me"
+        identifier = "reachme"
         url = "/reachme"
         weight = 4
 

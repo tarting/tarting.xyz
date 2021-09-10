@@ -1,5 +1,5 @@
 +++
-title = "T. B. Árting: Resume"
+title = "Resume"
 +++
 
 # About me

@@ -73,6 +73,19 @@ $y-medium: 1.0rem;
 }
 .nav-link {
     @extend %link-default;
+    &:hover {
+        font-weight: bold;
+        color: $red;
+    }
+}
+.nav-current {
+    text-decoration: underline;
+    font-weight: bold;
+    color: $black;
+    &:hover {
+        text-decoration: underline;
+        color: $black;
+    }
 }
 
 
