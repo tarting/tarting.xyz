@@ -51,25 +51,25 @@ __[P]__ Árting, T. B. __(2013)__ A detailed study of a Mn-crust, Faroe Bank, Fa
 
 ---
 
-###### Geochemical clean-lab
+### Geochemical clean-lab
 Rock sample digestion and purification, handling of hazardous acids e.g. concentrated HF, HCl, HNO<sub>3</sub>. Ion chromatography on gravity columns. 
 
-###### Thermal Ionisation Mass Spectrometry (TIMS)
+### Thermal Ionisation Mass Spectrometry (TIMS)
 Routine Cr isotope measuerements, Sr isotope measurements on purified samples, on GV-instruments IsoProbe T, ISOTOPX Phoenix, and Sector 54-IT. Development of automated data-reduction software for double spike isotope geochemistry in Python.
 
-##### Liquid Inductively Coupled Plasma Mass Spectrometry (ICP-MS)
+### Liquid Inductively Coupled Plasma Mass Spectrometry (ICP-MS)
 Established procedures in a new trace element geochemistry lab for measuring lanthanides and other metals in rock samples using the Bruker Aurora Elite instrument. Including reproducibility data, and quality checks with certified reference materials.
 
-##### C-S analyses
+### C-S analyses
 Procedure development of Carbon-Sulfur analyses in carbonates and carbonaceous-shales on an Eltra CS-i catalyst furnace. Evaluation of reproducibility and accuracy using externally measured reference materials.
 
-###### Zircon U-Pb geochronology
+### Zircon U-Pb geochronology
 Analyses performed on a secondary ion mass spectrometer (SHRIMP-II instrument) at Curtin University, John de Laeter Centre, during a short stay at University of Western Australia.
 
-###### Electron Microprobe
+### Electron Microprobe
 Experience using the Electron Microprobe at the Geology Section at the University of Copenhagen (JEOL JXA-8200 Superprobe) wavelength dispersive spectrometer (WDS) for quantitative mineral chemistry in gabbros.
 
-###### Scanning Electron Microscopy (SEM)
+### Scanning Electron Microscopy (SEM)
 Experience using SEM secondary electron images for analysis planning (Electron microprobe and SHRIMP-II) and petrography, as well as qualitative chemical analyses for sample screening using the energy dispersive spectrometer (EDS).
 
 ## Field experience
@@ -86,7 +86,9 @@ __Greenland__ 6 week expedition on Ammassalik Island, South East Greenland. Part
 
 __Faroe Islands__ 2 seasons: Mapping fractures in a water supply tunnel for geotechnical data. Mineral sampling in various quarries for a teaching collection.
 
-#### Field courses 
+### Field courses 
+
+<hr>
 
 __United States of America__ Two week course in various locations Utah.
 

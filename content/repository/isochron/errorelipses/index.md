@@ -31,7 +31,6 @@ import matplotlib as mpl
 Calculate major and minor axes and inclination of ellipse.
 returns x_size, y_size, theta.
 
-w
 ```python
 def calc_ellipse_params(x_err, y_err, rho, scale=2.4477):
     xy_err = rho * x_err * y_err

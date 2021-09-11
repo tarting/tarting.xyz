@@ -6,6 +6,7 @@ $listimg-size: {{ .Param "style.listimgSize" | default "50px;" }};
 // Colors
 $black: {{ .Param "style.colorBlack" | default "#222222" }};
 $red: {{ .Param "style.colorRed" | default "#dc3545" }};
+$blue: {{ .Param "style.colorBlue" | default "#134267" }};
 $illuminating: {{ .Param "style.colorY" | default "#f5df4d" }};
 $peacockblue: {{ .Param "style.colorC" | default "#00a0b0" }};
 $fruitdove: {{ .Param "style.colorP" | default "#cf5c78" }};
@@ -16,10 +17,12 @@ $ultimategray: {{ .Param "style.colorG" | default "#939597" }};
 
 // Font
 $font-family: {{ .Param "style.fontFamily" | default "Inconsolata" }};
+$font-size: {{ .Param "style.fontSize" | default "22px" }};
 
 // Margins
 $y-small: 0.6rem;
-$y-medium: 1.0rem;
+$y-medium: 1.5rem;
+$y-large: 3.0rem;
 
 // Placeholders
 %link-default {
@@ -53,22 +56,28 @@ $y-medium: 1.0rem;
     }
 }
 %table-cell {
-    border: 1px solid #cccccc;
+    //border: 1px solid #cccccc;
     padding: 6px 12px;
+    font-size: $font-size - 4;
     text-align: left;
 }
 
 // Style
 * {
     color: $black;
+    font-size: $font-size;
     font-family: $font-family;
-    line-height: 1.2;
+    line-height: 1.5;
 }
 .container {
     max-width: $max-width;
 }
+.break {
+    display: block;
+}
 .navbar-brand {
     @extend %link-display;
+        text-overflow: ellipsis;
         font-size: 2.5rem;
 }
 .nav-link {
@@ -106,13 +115,17 @@ $y-medium: 1.0rem;
         margin-bottom: $y-small;
     }
     h1, h2, h3, h4, h5, h6 {
-        font-size: medium;
-            font-weight: bold;
+        font-size: $font-size;
+        font-weight: bold;
         margin: $y-medium 0 $y-small 0;
     }
+    h1, h2 {
+        margin: $y-large 0 $y-small 0;
+    }
+
     @for $i from 1 through 4 {
         h#{$i} {
-            font-size: 1.2rem + 0.2 * (4 - $i);
+            font-size: $font-size + 2 * (4 - $i);
         }
     }
     img {
@@ -169,13 +182,18 @@ $y-medium: 1.0rem;
         & th {
             @extend %table-cell;
             font-weight: bold;
+            border-bottom: 1px solid black;
         }
         & td {
             @extend %table-cell;
         }
-        & tr:nth-child(2n) {
-            background-color: #f8f8f8;
+        & tr:last-child {
+            @extend %table-cell;
+            border-bottom: 1px solid black;
         }
+        //& tr:nth-child(2n) {
+        //    background-color: #f8f8f8;
+        //}
     }
     blockquote {
         border-left: 2px solid;
@@ -185,16 +203,17 @@ $y-medium: 1.0rem;
     }
     code {
         color: $black;
+        font-size: $font-size - 4;
         background-color: #f8f8f8;
         border: 1px solid #cccccc;
-        border-radius: 10%;
+        border-radius: 5px;
         padding: 0px 4px;
     }
     pre code {
         all: unset;
     }
     .highlight {
-        margin: $y-medium auto;
+        margin: $y-small auto;
         & > pre {
             padding: 8px 8px;
         }
