@@ -89,6 +89,29 @@ $y-medium: 1.0rem;
 }
 
 
+body {
+    padding-top: 150px;
+}
+
+
+header {
+    height: 150px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    background-color: #fff;
+}
+
+
+.nav-up {
+    top: -80px;
+}
+
+.nav-down {
+    top: 0px;
+}
+
 #content {
     div.repolist {
         min-height: $listimg-size*1.4;
