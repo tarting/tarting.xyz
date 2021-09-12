@@ -24,11 +24,10 @@
     {{ if not .Site.IsServer }}
         {{ template "_internal/google_analytics.html" . }}
     {{ end }}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     {{ if .Params.gallery }}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.4/css/nanogallery2.min.css"/>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.4/jquery.nanogallery2.min.js"></script>
     {{ end }}
-    <script src="/js/header.js"></script>
 
 </head>
