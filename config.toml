@@ -11,7 +11,7 @@ math = true
     logo = ""  # url or path to a logo to put in the header
     [params.footer]
         text = "Trygvi Bech Árting"
-        url = "https://tarting.github.io"
+        url = "https://tarting.xyz"
     [params.style]
         fontFamily = "Inconsolata"
         pageWidth = "750px"
