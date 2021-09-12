@@ -5,7 +5,9 @@
         {{- partial "math.html" . -}}
     {{ end }}
     <body>
+        <header class="nav-down">
         {{- partial "header.html" . -}}
+        </header>
         <div id="content">
         {{- block "main" . }}{{- end }}
         </div>
