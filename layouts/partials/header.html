@@ -1,12 +1,12 @@
 <div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
         <a class="navbar-brand mx-0 mr-sm-auto" href="{{ .Site.BaseURL }}" title="{{ .Site.Title }}">
+          {{ $currentPage := . }}
           {{ with .Site.Params.logo }}
             <img src="{{ . | absURL }}" alt="logo">
           {{ end }}
           {{ .Site.Title }}
         </a>
-    <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
-        {{ $currentPage := . }}
         {{ $currentSection := .Section }}
         {{ $currentTitle := .Title }}
         <div class="navbar-nav flex-row flex-wrap justify-content-center">
