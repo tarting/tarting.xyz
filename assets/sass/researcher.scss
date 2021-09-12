@@ -17,7 +17,7 @@ $ultimategray: {{ .Param "style.colorG" | default "#939597" }};
 
 // Font
 $font-family: {{ .Param "style.fontFamily" | default "Inconsolata" }};
-$font-size: {{ .Param "style.fontSize" | default "19px" }};
+$font-size: {{ .Param "style.fontSize" | default "22px" }};
 
 // Margins
 $y-small: 0.6rem;
