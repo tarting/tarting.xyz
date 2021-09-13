@@ -1,9 +1,12 @@
 // Modified from the example at https://medium.com/@mariusc23/hide-header-on-scroll-down-show-on-scroll-up-67bbaae9a78c
 // Hide Header on on scroll down
 var didScroll;
+var didResize = true;
 var lastScrollTop = 0;
 var delta = 5;
-
+$(window).resize(function(event){
+    didResize = true;
+});
 $(window).scroll(function(event){
     didScroll = true;
 });
@@ -13,8 +16,16 @@ setInterval(function() {
         hasScrolled();
         didScroll = false;
     }
+    if (didResize) {
+        hasResized();
+        didResize = false;
+    }
 }, 250);
 
+function hasResized() {
+    console.log("hasresized");
+    $("body").css("padding-top", $("header").outerHeight());
+}
 
 function hasScrolled() {
     var st = $(this).scrollTop();
