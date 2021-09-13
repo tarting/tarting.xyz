@@ -11,7 +11,9 @@ An example of kriging and map projection in Python 3. Geopandas is used for read
 
 [Imports are at the bottom of the page]({{< relref "/repository/kriging/index.md#imports" >}})
 
-### Map setup
+# Map setup
+
+---
 
 Define projections: EPSG:4326 is the geographical reference (WGS-84), and the map is plotted in UTM zone 32N (EPSG:32632). 
 
@@ -65,7 +67,9 @@ grid_bounds_gdf.plot(fc='none', ec='r', ax=ax, zorder=13)
     
 
 
-### Generate example conditioned field
+# Generate example conditioned field
+
+---
 
 We generate a conditional field using a gaussian kernel with a functional range of 30 km, semivariance of 1, and a regional linear drift. The drift is added to the value as a multiple of the latitude and longitude.
 
@@ -155,7 +159,9 @@ print(len(pts_gdf))
     
 
 
-### Time to Krige
+# Time to Krige
+
+---
 
 First we fit a the variogram. In this case we use the fitting routine built into the gstools module. We make sure to use spherical coordinates by setting `latlon = true`.
 The `rescale = gs.EARTH_RADIUS` parameter rescales great circle distances to kilometers rather than the default: radians.
@@ -216,7 +222,9 @@ Z_se = (Z_v**0.5)
 ```
 
 
-### Plot maps
+# Plot maps
+
+---
 
 Before plotting we setup the projection: UTM zone 32N.
 
@@ -274,7 +282,9 @@ ax.set_title('Linear drift');
 ![png](output_29_1.png)
 
 
-### Plot realisations of the resulting random field
+# Plot realisations of the resulting random field
+
+---
 
 Following the same procedure as above we can plot realisations of the random field. First we generate conditioned surfaces using the universal kriging fit as the condition.
 

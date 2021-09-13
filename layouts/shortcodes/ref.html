@@ -1,0 +1,12 @@
+<!-- Reference -->
+
+<p class="ref">
+    {{ if .Get "type" }}[{{ .Get "type" }}]{{ end }}
+    {{ .Get "authors" }}
+    ({{ .Get "year" }})
+    {{ if .Get "title" }}{{ .Get "title" }}.{{ end }}
+    {{ if .Get "pub"}}{{ .Get "pub" }}.{{ end }}
+    {{ if .Get "link" }}<a class="ref" href={{ .Get "link"}}>{{ .Get "link"}}</a>{{ end }}
+</p>
+
+<!-- Reference -->

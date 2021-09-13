@@ -31,7 +31,6 @@ import matplotlib as mpl
 Calculate major and minor axes and inclination of ellipse.
 returns x_size, y_size, theta.
 
-w
 ```python
 def calc_ellipse_params(x_err, y_err, rho, scale=2.4477):
     xy_err = rho * x_err * y_err
@@ -89,8 +88,9 @@ def error_ellipse(x, y, x_err, y_err, rho, scale=2.4477, num_points = 200):
     return ellipse(x,y,x_size,y_size,theta,num_points)
 ```
 
-Example of plotting a data set:
+# Example use
 
+---
 
 ```python
 fig, ax = plt.subplots(dpi=150)
@@ -111,8 +111,12 @@ plt.savefig('output_12_0.png');
 ![png](output_12_0.png)
     
 
+# Measuiring misfit
+
+---
 
 In order to evaluate a regression fit, we calculate the 'best fit' distance, defined as the shortest distance from an analysis point, in relation to the error ellipse size. This corresponds to the distance between the ellipse center and the first point on the line the ellipse touches under scaling.
+
 
 ```python
 fig, ax = plt.subplots(dpi=150)

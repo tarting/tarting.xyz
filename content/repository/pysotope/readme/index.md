@@ -13,9 +13,10 @@ Pysotope uses a hillclimbing algorithm to unmix spike and sample isotope composi
 
 [github.com/tarting/pysotope](https://github.com/tarting/pysotope)
 
-# User guide
 
-## Installing
+# Installing
+
+---
 
 Get a working installation of python e.g. via the Anaconda python distribution
 (Used for testing on Windows 10, macOS Mojave, and Manjaro GNU/Linux).
@@ -53,7 +54,9 @@ $ pysotope init --help
 ```
 
 
-## Using the command-line tools
+# Using the command-line tools
+
+---
 
 These tools are specifically made for the instruments, naming-convention and
 workflow at the UCPH labs.
@@ -125,8 +128,9 @@ calculation as red crosses, as well as 2 standard deviation and standard
 error fields, for both individual runs and summarized across a bead run.
 
 
-## Using as a python module
+# Using as a python module
 
+---
 
 Import pysotope:
 ```python

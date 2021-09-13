@@ -16,10 +16,12 @@ $ultimategray: {{ .Param "style.colorG" | default "#939597" }};
 
 // Font
 $font-family: {{ .Param "style.fontFamily" | default "Inconsolata" }};
+$font-size: {{ .Param "style.fontSize" | default "19px" }};
 
 // Margins
 $y-small: 0.6rem;
-$y-medium: 1.0rem;
+$y-medium: 1.5rem;
+$y-large: 3.0rem;
 
 // Placeholders
 %link-default {
@@ -62,14 +64,15 @@ $y-medium: 1.0rem;
 * {
     color: $black;
     font-family: $font-family;
-    line-height: 1.2;
+    font-size: $font-size;
+    line-height: 1.375rem;
 }
 .container {
     max-width: $max-width;
 }
 .navbar-brand {
     @extend %link-display;
-        font-size: 2.5rem;
+        font-size: 1.8rem;
 }
 .nav-link {
     @extend %link-default;
@@ -87,10 +90,15 @@ $y-medium: 1.0rem;
         color: $black;
     }
 }
+.ref {
+    margin-bottom: $y-medium;
+    font-size: 0.8rem;
+    line-height: 1.0rem
+}
 
 
 body {
-    padding-top: 150px;
+    padding-top: 80px;
 }
 
 
@@ -127,14 +135,16 @@ header {
         margin-bottom: $y-small;
     }
     h1, h2, h3, h4, h5, h6 {
-        font-size: medium;
+        font-size: 1rem;
             font-weight: bold;
         margin: $y-medium 0 $y-small 0;
     }
-    @for $i from 1 through 4 {
-        h#{$i} {
-            font-size: 1.2rem + 0.2 * (4 - $i);
-        }
+    h1 {
+        margin-top: $y-large;
+        font-size: 1.6rem;
+    }
+    h2 {
+        font-size: 1.0rem;
     }
     img {
         display: block;
@@ -177,8 +187,9 @@ header {
         list-style: inside;
         padding-left: 2rem;
         & > li {
+            list-style-type: square;
             list-style-position: outside;
-            margin-left: 1em;
+            margin-left: 1rem;
         }
     }
     .container > ul, .footnotes > ul {

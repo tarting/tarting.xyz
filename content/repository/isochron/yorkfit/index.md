@@ -30,6 +30,9 @@ Yorkfit = namedtuple('Yorkfit', ['y0', 'alpha',
                                  'x_adj', 'y_adj'])
 ```
 
+# Regression function
+
+---
 
 ```python
 def york(X, Y, X_err, Y_err, rho=None, max_iter=1000, epsilon=1e-18):
@@ -96,7 +99,9 @@ def york(X, Y, X_err, Y_err, rho=None, max_iter=1000, epsilon=1e-18):
     return Yorkfit(a, b, sigma_a**0.5, sigma_b**0.5, MSWD, deg_f, x, y)
 ```
 
-## Decay model parameters
+# Decay model parameters
+
+---
 
 Decay constants in y<sup>-1</sup> from Steiger and Jäger (1977)
 
@@ -116,8 +121,9 @@ Pb207Pb204_CD = 10.294
 Pb208Pb204_CD = 29.476
 ```
 
-## Decay models for lead evolution
+# Decay models for lead evolution
 
+---
 
 ```python
 Pb207206star = lambda t: 1/137.88 * (np.exp(lambda_235_2*t)-1)/(np.exp(lambda_238_1*t)-1)
@@ -139,8 +145,9 @@ Pb207Pb204_1s = lambda mu:(lambda t: Pb207Pb204_CD + mu/137.88 * (np.exp(lambda_
 
 ```
 
-## Example
+# Example
 
+---
 
 ```python
 fig, ax = plt.subplots(dpi=150)
@@ -179,19 +186,55 @@ ax.plot([0,1],[0,fit.alpha]);
     
 
 
-## References
-<hb>
+# References
+
+---
+
+{{< ref
+    authors="Ludwig, K.R."
+    year="2003"
+    title="User's manual for IsoPlot 3.0. A geochronological toolkit for Microsoft Excel"
+    pub="71 pp"
+>}}
+
+{{< ref
+    authors="Stacey, J.S., Kramers, J.D."
+    year="1975"
+    title="Approximation of terrestrial lead isotope evolution by a two-stage model"
+    pub="Earth and Planetary Science Letters 26, 207-221"
+>}}
     
-Ludwig, K. R. (2003). User's manual for IsoPlot 3.0. A geochronological toolkit for Microsoft Excel, 71.
+{{< ref
+    authors="Steiger, R.H. and Jäger, E."
+    year="1977"
+    title="Subcommission on Geochronology: Convention on the use of decay constants in geo- and cosmochronology"
+    pub="Earth and Planetary Science Letters 36, 359-362"
+>}}
 
-Stacey, J.S., Kramers, J.D. (1975) Approximation of terrestrial lead isotope evolution by a two-stage model. Earth and Planetary Science Letters 26, 207-221.
+{{< ref
+    authors="Tatsumoto, M., Knight R.J., Allègre, C.J."
+    year="1973"
+    title="Time differences in the formation of meteorites as determined from the ratio of lead-207 to lead-206"
+    pub="Science 180, 1279-1283" 
+>}}
     
-Steiger, R.H. and Jäger, E. (1977) Subcommission on Geochronology: Convention on the use of decay constants in geo- and cosmochronology. Earth and Planetary Science Letters 36, 359-362.
+{{< ref
+    authors="York, D."
+    year="1966"
+    title="Least squares fitting of a straight line"
+    pub="Canadian Journal of Physics, 44, 1079–1086"
+>}}
 
-Tatsumoto, M., Knight R.J., Allègre, C.J. (1973) Time differences in the formation of meteorites as determined from the ratio of lead-207 to lead-206. Science 180, 1279-1283. 
-    
-York, D. (1966) Least squares fitting of a straight line. Canadian Journal of Physics, 44, 1079–1086.
+{{< ref
+    authors="York, D."
+    year="1969"
+    title="Least squares fitting of a straight line with correlated errors"
+    pub="Earth and Planetary Science Letters 5, 320–324"
+>}}
 
-York, D. (1969) Least squares fitting of a straight line with correlated errors. Earth and Planetary Science Letters 5, 320–324.
-
-York, D., Evensen, N.M., Martinez, M.L., and Delgado, J.D. (2004) Unified equations for the slope, intercept, and standard errors of the best straight line. American Journal of Physics 72, 367–375.
+{{< ref
+    authors="York, D., Evensen, N.M., Martinez, M.L., and Delgado, J.D."
+    year="2004"
+    title="Unified equations for the slope, intercept, and standard errors of the best straight line"
+    pub="American Journal of Physics 72, 367–375"
+>}}
