@@ -58,5 +58,10 @@ math = true
         url = "/repository"
         weight = 3
 
-[markup.goldmark.renderer]
+
+[markup]
+    [markup.goldmark.renderer]
         unsafe = true  # allow raw HTML in markdown files
+
+    [markup.highlight]
+        style = 'dracula'
