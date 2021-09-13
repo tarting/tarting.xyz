@@ -105,9 +105,12 @@ body {
 header {
     position: fixed;
     width: 100%;
+    height: auto;
     top: 0;
+    padding: 1rem;
     transition: top 0.2s ease-in-out;
     background-color: #fff;
+    border-bottom: 1px solid #cccccc;
 }
 
 

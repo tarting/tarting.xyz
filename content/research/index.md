@@ -13,9 +13,8 @@ My current research interests derive from my desire to apply novel analytical ap
 
 ---
 
->
-> [P]osters, [T]alks, Peer reviewed journal [A]articles, scientific [R]eports and [L]etters.
-> 
+[P]osters, [T]alks, Peer reviewed journal [A]articles, scientific [R]eports and [L]etters.
+ 
 
 {{< ref
     type="T" 
