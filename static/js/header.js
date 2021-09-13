@@ -36,3 +36,23 @@ function hasScrolled() {
     lastScrollTop = st;
     return;
 }
+
+// https://stackoverflow.com/a/14254924
+function jq( myid ) {
+    return myid.replace( /(:|\.|\[|\]|,|=|@)/g, "\\$1" );
+}
+
+$(document).on('click', 'a[href^="#"]', function(e) {
+//$("footnote-ref").click(function() {
+    e.preventDefault();
+    var id = jq($(this).attr("href"));
+    var link = $(this);
+    var target = $(id);
+    console.log(link.text);
+
+    // https://stackoverflow.com/a/42769683
+    var fontSize = parseFloat(getComputedStyle(document.documentElement).fontSize);
+
+    var off_top = target.offset().top - $('header').outerHeight() - fontSize;
+    $('body, html').animate({scrollTop: off_top});
+});
