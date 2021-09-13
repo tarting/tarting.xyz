@@ -95,6 +95,7 @@ $y-large: 3.0rem;
     line-height: 1.0rem
 }
 
+
 header {
     position: fixed;
     width: 100%;
@@ -120,6 +121,9 @@ div.headerdiv {
 
 .nav-down {
     top: 0px;
+}
+a.footnote-ref {
+    z-index: -1;
 }
 
 #content {
