@@ -8,6 +8,17 @@ title = "Resume"
 
 Halló, I am a geologist from the Faroe Islands, currently based in Copenhagen Denmark. Until recently I've been employed as a PhD-student at the University of Copenhagen. During my stay I implemented new data reduction schemes for the mass spectrometry lab (TIMS), and established methods for trace metal analysis in geological samples using inductively coupled plasma mass spectrometry (ICP-MS, Bruker Aurora Elite), and was involved in method development for laser ablation ICP-MS in a newly established laboratory (Teledyne CETAC Analyte Excite coupled with Agilent 7900 ICP-MS). Seeking to use my curiosity and scientific background to optimise work-flows.
 
+## Contact
+<div class="container">
+    <div class="row">
+        <div class="col-sm"><a href="mailto:trygvi@gmail.com">trygvi@gmail.com</a></div>
+        <div class="col-sm"><a href="tel:+45-50310807">+45&nbsp;5031&nbsp;0807</a></div>
+        <div class="col-sm"><a href="https://facebook.com/trygvi">Facebook</a></div>
+        <div class="col-sm"><a href="https://github.com/tarting">GitHub</a></div>
+        <div class="col-sm"><a href="https://www.researchgate.net/profile/Trygvi-Arting">ResearchGate</a></div>
+    </div>
+</div>
+
 
 # Employment
 

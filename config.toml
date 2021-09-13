@@ -11,7 +11,7 @@ math = true
     logo = ""  # url or path to a logo to put in the header
     [params.footer]
         text = "Trygvi Bech Árting"
-        url = "https://tarting.xyz"
+        url = "https://tarting.github.io"
     [params.style]
         fontFamily = "Inconsolata"
         fontSize = "19px"
@@ -57,11 +57,6 @@ math = true
         identifier = "repository"
         url = "/repository"
         weight = 3
-    [[menu.main]]
-        name = "Reach me"
-        identifier = "reachme"
-        url = "/reachme"
-        weight = 4
 
 [markup.goldmark.renderer]
         unsafe = true  # allow raw HTML in markdown files

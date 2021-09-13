@@ -55,7 +55,6 @@ $y-large: 3.0rem;
     }
 }
 %table-cell {
-    border: 1px solid #cccccc;
     padding: 6px 12px;
     text-align: left;
 }
@@ -206,12 +205,14 @@ div.headerdiv {
         & th {
             @extend %table-cell;
             font-weight: bold;
+            border-top: 1px solid #000;
+            border-bottom: 1px solid #ccc;
         }
         & td {
             @extend %table-cell;
         }
-        & tr:nth-child(2n) {
-            background-color: #f8f8f8;
+        & tr:last-child {
+            border-bottom: 1px solid #000;
         }
     }
     blockquote {
