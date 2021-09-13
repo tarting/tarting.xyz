@@ -96,12 +96,6 @@ $y-large: 3.0rem;
     line-height: 1.0rem
 }
 
-
-body {
-    padding-top: 100px;
-}
-
-
 header {
     position: fixed;
     width: 100%;
@@ -113,6 +107,14 @@ header {
     border-bottom: 1px solid #cccccc;
 }
 
+div.headerdiv {
+    width: 100%;
+    height: auto;
+    top: 0;
+    visibility: hidden;
+    padding: 1rem;
+    border-bottom: 1px solid #fff;
+}
 
 .nav-up {
 }

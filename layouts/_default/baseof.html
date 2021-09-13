@@ -6,10 +6,15 @@
     {{ end }}
     <body>
         <header class="nav-down">
-        {{- partial "header.html" . -}}
+            {{- partial "header.html" . -}}
         </header>
+        <!-- Hacky way to dynamically set top padding for content -->
+        <div class="headerdiv nav-down">
+            {{- partial "header.html" . -}}
+        </div>
+        <!-- end of hack -->
         <div id="content">
-        {{- block "main" . }}{{- end }}
+            {{- block "main" . }}{{- end }}
         </div>
         {{- partial "footer.html" . -}}
     </body>

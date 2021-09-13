@@ -4,28 +4,21 @@ var didScroll;
 var didResize = true;
 var lastScrollTop = 0;
 var delta = 5;
-$(window).resize(function(event){
-    didResize = true;
-});
+var headerHeight;
+
+
 $(window).scroll(function(event){
     didScroll = true;
 });
+
 
 setInterval(function() {
     if (didScroll) {
         hasScrolled();
         didScroll = false;
     }
-    if (didResize) {
-        hasResized();
-        didResize = false;
-    }
 }, 250);
 
-function hasResized() {
-    console.log("hasresized");
-    $("body").css("padding-top", $("header").outerHeight());
-}
 
 function hasScrolled() {
     var st = $(this).scrollTop();
