@@ -14,9 +14,10 @@ math = true
         url = "https://tarting.xyz"
     [params.style]
         fontFamily = "Inconsolata"
+        fontSize = "19px"
         pageWidth = "750px"
-        avatarSize = "200px"
-        listimgSize = "150px"
+        avatarSize = "150px"
+        listimgSize = "120px"
         colorBlack = "#222222"
         colorRed = "#b23b2d"
         colorBlue = "#134267"
