@@ -1,3 +1,4 @@
 resources/_gen/*
 __pycache__
 .ipynb_checkpoints
+.gitattributes
