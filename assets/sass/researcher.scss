@@ -92,9 +92,12 @@ $y-large: 3.0rem;
 .ref {
     margin-bottom: $y-medium;
     font-size: 0.8rem;
-    line-height: 1.0rem
+    line-height: 1.0rem;
 }
 
+.displaynone {
+    display: none;
+}
 
 header {
     position: fixed;

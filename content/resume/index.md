@@ -11,11 +11,11 @@ Halló, I am a geologist from the Faroe Islands, currently based in Copenhagen D
 ## Contact
 <div class="container z-1">
     <div class="row z-1">
-        <div class="col-sm z-1"><a href="mailto:trygvi@gmail.com">trygvi@gmail.com</a></div>
-        <div class="col-sm z-1"><a href="tel:+45-50310807">+45&nbsp;5031&nbsp;0807</a></div>
-        <div class="col-sm z-1"><a href="https://facebook.com/trygvi">Facebook</a></div>
-        <div class="col-sm z-1"><a href="https://github.com/tarting">GitHub</a></div>
-        <div class="col-sm z-1"><a href="https://www.researchgate.net/profile/Trygvi-Arting">ResearchGate</a></div>
+        <div class="col-sm"><a href="mailto:trygvi[at]gmail[dot]com">trygvi@<span class="displaynone">null</span>gmail.<span class="displaynone">null</span>com</a></div>
+        <div class="col-sm"><a href="tel:+45-50310807">+45&nbsp;5031&nbsp;0807</a></div>
+        <div class="col-sm"><a href="https://facebook.com/trygvi">Facebook</a></div>
+        <div class="col-sm"><a href="https://github.com/tarting">GitHub</a></div>
+        <div class="col-sm"><a href="https://www.researchgate.net/profile/Trygvi-Arting">ResearchGate</a></div>
     </div>
 </div>
 
