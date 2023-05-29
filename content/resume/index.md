@@ -82,7 +82,7 @@ University of Copenhagen; _thesis:_ A detailed study of a Fe-Ti oxide band in th
 ## Upper secondary school
 Føroya Studentaskúli og HF-skeið, Department of Mathematics. | 2008
 
-## Teaching experience
+# Teaching experience
 
 ---
 
